@@ -1,8 +1,6 @@
-# React + Vite
+# 리액트 샘플 프로젝트
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 컴포넌트에서 State를 이용해서 자신의 값을 관리하는 샘플 애플리케이션이다.
+- 각각의 Counter1 컴포넌트와 Counter2 컴포넌트는 State를 이용해서 카운터값을 관리한다.
+- 감소/증가 버튼을 클릭할 때 마다 카운터 값을 1씩 감소 혹은 증가시킨다.
+- 각각의 컴포넌트는 State의 값이 변경될 때마다 UI을 업데이트한다.
