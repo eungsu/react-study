@@ -21,7 +21,7 @@ function EventPractice3() {
         // State객체에 저장된 사용자 정보를 전개연산자를 사용해서 객체의 값을 갱신한다.
         setUser({
             ...user,
-            name: value
+            [name]: value
         })
         /*
         전개 연산자를 이용한 객체의 복제와 수정
