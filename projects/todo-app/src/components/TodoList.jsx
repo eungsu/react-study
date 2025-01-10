@@ -34,7 +34,7 @@ function TodoList({ todos, onUpdate, onDelete }) {
                 <div className="col-12">
                     {filtedTodos().map((todo) => 
                         (
-                            <TodoItem {...todo} 
+                            <TodoItem todo={todo} 
                                 key={todo.id} 
                                 onUpdate={onUpdate}
                                 onDelete={onDelete} />
